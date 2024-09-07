@@ -11,8 +11,8 @@ body {
 
 
 #appBg {
-    height: 70%;
-    width: 20%;
+    height: 480px;
+    width: 320px;
     border: 2px solid #000;
     border-radius: 10px;
     background-color: #333;
