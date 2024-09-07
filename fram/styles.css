@@ -1,0 +1,97 @@
+
+body {
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#appBg {
+    height: 480px;
+    width: 320px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #333;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+
+#appBg form {
+    height: 95%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#appBg input[type=textfield] {
+    height: 60px;
+    width: 100%;
+    cursor: default;
+    background-color: #000;
+    color: #0f0;
+    padding: 10px;
+    text-align: right;
+    font-size: 40px;
+    border: 1px solid #666;
+    outline: none;
+    box-shadow: inset 0px -3px 6px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+
+#appBg input[type=button], input[type=reset] {
+    width: 22%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+    padding: 15px;
+    margin: 4px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #555;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#appBg input[type=button]:hover, input[type=reset]:hover {
+    background-color: #777;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#appBg .orange {
+    background-color: #ff9500;
+    color: white;
+}
+
+#appBg .orange:hover {
+    background-color: #e68900;
+}
+
+#appBg .gray {
+    background-color: #3e3e3e;
+    color: white;
+}
+
+#appBg .gray:hover {
+    background-color: #5c5c5c;
+}
+
+#appBg .green {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#appBg .green:hover {
+    background-color: #45a049;
+}
